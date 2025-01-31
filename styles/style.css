@@ -145,7 +145,7 @@ body {
   font-size: 21.6px;
   font-weight: 600;
   cursor: pointer;
-  border: transparent;
+  border: 1px transparent;
 }
 
 .primary-btn:hover {
@@ -446,4 +446,98 @@ body {
 
 .question-table-row button:hover {
   background-color: rgba(198, 228, 214, 1);
+}
+
+/* News Section Styles */
+
+.news-card {
+  display: flex;
+  padding: 57.6px;
+  gap: 38.4px;
+  margin-bottom: 28.8px;
+}
+
+.news-title {
+  font-weight: 800;
+  font-size: 38.4px;
+  color: var(--card-title-color);
+}
+
+.satellite {
+  width: 489.6px;
+  height: 367.2px;
+  border-radius: 24px;
+}
+
+.news-textarea img {
+  width: 160.8px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.news-gap {
+  margin-bottom: 14.4px;
+}
+
+.news-description-gap {
+  margin-bottom: 38.4px;
+}
+
+
+/* Donation Section Styles */
+
+.center-align {
+  text-align: center;
+}
+
+.donation-section {
+  margin-top: 96px;
+}
+
+.donation-container {
+  margin: 38.4px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28.8px;
+}
+
+.donation-box {
+  padding: 48px;
+  border-radius: 16px;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.donation-box:hover {
+  padding: 46px;
+  background-color: rgba(198, 228, 214, 1);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.custom-amount {
+  width: 1238.4px;
+  height: 76.8px;
+  margin: auto;
+}
+
+#donation-amount {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: var(--card-title-color);
+}
+
+#donation-amount::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 24px;
+}
+
+
+.done-btn {
+  text-align: center;
+  margin-top: 38.4px;
 }
