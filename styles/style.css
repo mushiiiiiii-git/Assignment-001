@@ -145,11 +145,13 @@ body {
   font-size: 21.6px;
   font-weight: 600;
   cursor: pointer;
+  border: transparent;
 }
 
 .primary-btn:hover {
   background-color: white;
   color: #006A50;
+  border: 1px solid #006A50;
 }
 
 .head-foot-text {
@@ -163,6 +165,12 @@ body {
   height: 57.6px;
   font-size: 48px;
   font-weight: 800;
+}
+
+.section-subtitle {
+  color: var(--card-title-color);
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .section-description {
@@ -349,4 +357,93 @@ body {
   color: rgba(255, 194, 57, 1);
   background-color: white;
   border: 1px solid rgba(255, 194, 57, 1);
+}
+
+/* Quotation Styles */
+
+.quotation {
+  padding: 0px 28.8px;
+  margin-bottom: 100px;
+}
+
+.quotation-section-textarea {
+  margin-left: 28.8px;
+  padding: 57.6px 0px;
+}
+
+.quotation img {
+  position: relative;
+  left: 30px;
+  top: 100px;
+}
+
+.quotation-section-description {
+  color: var(--card-title-color);
+  font-weight: 400;
+  font-size: 19.2px;
+  margin-bottom: 14.4px;
+}
+
+.rank-title {
+  color: var(--rank-color);
+  font-size: 19.2px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+/* User Opinion Section Styles */
+
+.user-opinion-section hr {
+  border-color: rgba(14, 14, 14, 0.15);
+}
+
+.question-container {
+  padding: 38.4px;
+  margin-top: 28.8px;
+}
+
+.question-table-head {
+  background-color: rgba(198, 228, 214, 1);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.question-table-row {
+  height: 86.4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.question-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.question-title,
+.question {
+  padding: 0px 28.8px;
+}
+
+.question {
+  font-size: 19.2px;
+  font-weight: 600;
+}
+
+.question-table-row button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 15px 19.8px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 19.2px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-right: 19.8px;
+}
+
+.question-table-row button:hover {
+  background-color: rgba(198, 228, 214, 1);
 }
