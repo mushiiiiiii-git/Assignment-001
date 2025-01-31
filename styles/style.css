@@ -1,0 +1,272 @@
+/* Font */
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+
+
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    padding: 0px 192px;
+}
+
+/* Root Styles */
+
+:root {
+    --primary-color: #0E0E0E;
+    --secondary-color: rgba(14, 14, 14, 0.5);
+    --rank-color: rgba(14, 14, 14, 0.6);
+    --description-color: rgba(14, 14, 14, 0.7);
+    --card-title-color: rgba(14, 14, 14, 0.8);
+}
+
+/* Shared Styles */
+
+.primary-btn {
+    padding: 20px 41px;
+    color: white;
+    background-color: #006A50;
+    border-radius: 9.6px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 21.6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background-color: white;
+    color: #006A50;
+}
+
+.head-foot-text {
+    font-weight: 800;
+    font-size: 38px;
+}
+
+.section-title {
+    color: var(--primary-color);
+    width: 100%;
+    height: 57.6px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+/* Header Styles */
+
+.head-title-container {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 37px 0px;
+}
+
+
+
+.head-button {
+    color: #006A50;
+    padding: 18px 36px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 21.6px;
+}
+
+.head-button:hover {
+    color: white;
+    background-color: #006A50;
+    padding: 18px 36px;
+    border: 1px solid white;
+}
+
+/* Banner Styles */
+
+.head-banner {
+    margin: 0px auto;
+    background-color: #C6E4D6;
+    border-radius: 29px;
+    width: 1536px;
+    height: 672px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.banner-items {
+    margin-left: 72px, 76px;
+}
+
+.banner-subtitle {
+    width: 745px;
+    height: 34px;
+    font-size: 28.8px;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-bottom: 19.2px;
+}
+
+.banner-title {
+    width: 745px;
+    height: 241px;
+    font-size: 67.2px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 28.8px;
+}
+
+/* Pillars of Bangladesh 2.0 Section Styles */
+
+.pillars-of-bd {
+    width: 100%;
+    height: 388px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+
+.pilar-section-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pillar-card {
+    width: 360px;
+    max-height: 290px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 28.8px;
+}
+
+.card-title {
+    color: var(--card-title-color);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 14.4px;
+    margin-top: 28.8px;
+}
+
+.card-description {
+    color: var(--description-color);
+    font-size: 19.2px;
+    font-weight: 400;
+}
+
+
+/* The Vision Of Future Section Styles */
+
