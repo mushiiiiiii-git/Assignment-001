@@ -598,3 +598,22 @@ body {
 input[type="email"] {
   padding-left: 48px;
 }
+
+
+/* Footer Styles */
+
+.foot-text {
+  margin-top: 60px;
+}
+
+.icons {
+  margin-top: 76.8px;
+  margin-bottom: 60px;
+  display: flex;
+  gap: 27.6px;
+  justify-content: center;
+}
+
+.icons img {
+  width: 28.8px;
+}
