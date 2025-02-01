@@ -120,6 +120,7 @@
 body {
   font-family: "Fira Sans", sans-serif;
   padding: 0px 192px;
+  background-color: rgba(245, 245, 245, 1);
 }
 
 /* Root Styles */
@@ -231,6 +232,10 @@ body {
   margin-left: 72px, 76px;
 }
 
+.banner-textarea {
+  height: 400px;
+}
+
 .banner-subtitle {
   width: 745px;
   height: 34px;
@@ -249,11 +254,15 @@ body {
   margin-bottom: 28.8px;
 }
 
+.banner-items .primary-btn {
+  margin: 5px 0;
+}
+
 /* Pillars of Bangladesh 2.0 Section Styles */
 
 .pillars-of-bd {
   width: 100%;
-  height: 388px;
+  height: 450px;
   margin-top: 96px;
   margin-bottom: 96px;
 }
@@ -262,14 +271,17 @@ body {
 .pilar-section-card-container {
   display: flex;
   justify-content: space-around;
+  gap: 28.8px;
+  margin-top: 38.4px;
 }
 
 .pillar-card {
   width: 360px;
-  max-height: 290px;
+  max-height: 350px;
   border-radius: 16px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   padding: 28.8px;
+  background-color: #ffffff;
 }
 
 .card-title {
@@ -288,6 +300,8 @@ body {
 
 
 /* The Vision Of Future Section Styles */
+
+
 
 .future-section-card-container {
   display: flex;
@@ -368,6 +382,7 @@ body {
 .quotation {
   padding: 0px 28.8px;
   margin-bottom: 100px;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .quotation-section-textarea {
@@ -404,6 +419,7 @@ body {
 .question-container {
   padding: 38.4px;
   margin-top: 28.8px;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .question-table-head {
@@ -458,7 +474,9 @@ body {
   display: flex;
   padding: 57.6px;
   gap: 38.4px;
+  border-radius: 24px;
   margin-bottom: 28.8px;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .news-title {
@@ -509,10 +527,11 @@ body {
   border-radius: 16px;
   font-size: 48px;
   font-weight: 800;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .donation-box:hover {
-  padding: 46px;
+  padding: 47px;
   background-color: rgba(198, 228, 214, 1);
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
@@ -603,6 +622,11 @@ input[type="email"] {
 
 /* Footer Styles */
 
+footer {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+}
+
 .foot-text {
   margin-top: 60px;
 }
@@ -617,4 +641,8 @@ input[type="email"] {
 
 .icons img {
   width: 28.8px;
+}
+
+footer hr {
+  border-color: rgba(14, 14, 14, 0.1);
 }
